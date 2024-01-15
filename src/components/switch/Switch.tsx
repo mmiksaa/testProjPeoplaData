@@ -13,7 +13,7 @@ const Switch: React.FC<ISwitch> = ({ title, desc, marks, isActive }) => {
 
   return (
     <div className={style.switch}>
-      <div className={`${style.label} bar`}>
+      <div className={`bar ${style.label}`}>
         <p>{title}</p>
 
         <div className={style.switcher}>

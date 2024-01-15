@@ -3,6 +3,18 @@
 .switch {
   margin-bottom: 28px;
 
+  .label {
+    align-items: center;
+    padding: 8px 16px;
+    display: flex;
+    margin-bottom: 1px;
+    border-radius: 9px 9px 0 0;
+
+    p {
+      color: $black;
+    }
+  }
+
   input[type='checkbox'] {
     border: 0;
     clip: rect(0 0 0 0);
@@ -46,18 +58,6 @@
       left: calc(100% - 2px);
       transform: translate(-100%, -50%);
     }
-  }
-}
-
-.label {
-  align-items: center;
-  padding: 8px 16px;
-  display: flex;
-  margin-bottom: 1px;
-  border-radius: 9px 9px 0 0;
-
-  p {
-    color: $black;
   }
 }
 
@@ -132,6 +132,6 @@
 }
 
 .desc {
-  max-width: 325px;
+  max-width: 95%;
   margin: 8px auto 0;
 }
