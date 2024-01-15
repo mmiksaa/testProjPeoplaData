@@ -8,6 +8,7 @@
     padding: 8px 16px;
     display: flex;
     margin-bottom: 1px;
+    transition: 0.3s border-radius;
     border-radius: 9px 9px 0 0;
 
     p {
@@ -58,6 +59,12 @@
       left: calc(100% - 2px);
       transform: translate(-100%, -50%);
     }
+  }
+}
+
+.active {
+  .label {
+    border-radius: 9px;
   }
 }
 

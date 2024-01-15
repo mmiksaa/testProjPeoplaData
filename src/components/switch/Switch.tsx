@@ -12,7 +12,7 @@ const Switch: React.FC<ISwitch> = ({ title, desc, marks, isActive }) => {
   const [active, setActive] = useState(isActive);
 
   return (
-    <div className={style.switch}>
+    <div className={`${style.switch} ${!active && style.active}`}>
       <div className={`bar ${style.label}`}>
         <p>{title}</p>
 
