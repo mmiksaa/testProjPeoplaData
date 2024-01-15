@@ -1,0 +1,29 @@
+@import '../../scss/vars';
+
+.wrapp {
+  align-items: center;
+  margin-bottom: 24px;
+  color: $black;
+}
+
+.range {
+  width: 75%;
+  height: 4px;
+  background-color: $gray;
+  position: relative;
+  margin-bottom: 24px;
+  border-radius: 2px;
+  margin: auto 0;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    border-radius: inherit;
+
+    left: 0;
+    height: inherit;
+    width: 35%;
+    background-color: $blue;
+  }
+}

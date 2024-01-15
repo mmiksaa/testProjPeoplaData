@@ -1,0 +1,32 @@
+@import '../scss/vars';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  color: #8e8e93;
+  background-color: #0c0c0c;
+  font-weight: 400;
+}
+
+h1 {
+  color: $black;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: left;
+  margin: 0 0 5px 16px;
+}
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: $white;
+  padding: 14px 16px;
+  font-size: 17px;
+  border-radius: 9px;
+}

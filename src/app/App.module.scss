@@ -1,0 +1,21 @@
+@import '../scss/vars';
+
+.app {
+  background-color: $gray;
+  max-width: 390px;
+  width: 100%;
+  margin: 40px auto;
+}
+
+.top {
+  margin-bottom: 25px;
+
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+.wrapp {
+  padding: 24px 19px 42px;
+}
