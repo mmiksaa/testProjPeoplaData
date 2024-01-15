@@ -26,7 +26,7 @@ export const PriceData = {
 export const volumeData = [
   {
     desc: 'Existing volume',
-    info: 10,
+    info: 2000,
   },
 ];
 
